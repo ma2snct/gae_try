@@ -18,7 +18,7 @@ var koa = require('koa');
 var app = koa();
 
 app.use(function * () {
-  this.body = 'Hello magic World! Koa.js on Google App Engine.';
+  this.body = 'Hello magic World! Koa.js on Google Cloud Platform.';
 });
 
 app.listen(process.env.PORT || 8080);
